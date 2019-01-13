@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="post">
+	<div class="columns">
+		<div class="column">
+		<h2>{{ page.title }}</h2>
+		</div>
+		<div class="column col-auto">
+		{% for tag in page.tags %}
+		<span class="label" style="background-color:{{ site.data.categories[tag] }}"><a href="/tags#{{ tag }}">{{ tag }}</a></span>
+		{% endfor %}
+		</div>
+	</div>
+	<div class="columns">
+		<div class="column">
+			<div class="text-justify">{{ content }}</div>
+			<p class="text-center comment soft-muted" ><i class="fa fa-comment" aria-hidden="true" style="cursor:pointer;"></i></p>
+			<p class="text-center togglebox-feedback" style="color: #4e4e4e;">Give feedback on this post? Let <a href="https://twitter.com/{{site.twitter}}">@{{site.twitter}}</a> knows on Twitter</p>
+		</div>
+	</div>
+</div>

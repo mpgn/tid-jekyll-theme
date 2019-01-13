@@ -1,0 +1,14 @@
+<!-- all post -->
+<div class="lastest">
+    {% for post in site.posts %}
+        <div class="columns col-gapless" style="padding-bottom: 15px;">
+            <div class="column  col-3">{{ post.date | date: '%B %d, %Y' }}</div>
+            <div class="column"><a class="post-link" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
+            <div class="column col-auto pull-right" style="border: none;">
+                {% for tag in post.tags %}
+                <span class="label" style="background-color:{{ site.data.categories[tag] }};"><a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a></span>
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
