@@ -18,7 +18,7 @@ I simple Jekyll theme build with [spectreCSS](https://picturepan2.github.io/spec
 
 ## Demo
 
-Check the demo of tid: [http://jekyllrb.com/](http://jekyllrb.com/) 
+Check the demo of tid: [https://mpgn.github.io/tid-jekyll-theme/](https://mpgn.github.io/tid-jekyll-theme/) 
 
 ![image](https://user-images.githubusercontent.com/5891788/51087794-e4384f80-1757-11e9-807a-f3d3fdccf692.png)
 
