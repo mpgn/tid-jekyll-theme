@@ -4,10 +4,6 @@ title: About tid
 ---
 
 <p>
-	Hello, I'm mpgn, actually working as a security consultant in Paris. You are on my secondary blog and you can find the first one here : <a href="https://mpgn.fr" style="color:#255bbd">mpgn.fr</a> with more serious projects. <small>(this is more a CV)</small>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id arcu eu mi dictum fermentum. Morbi justo lorem, viverra ut placerat sed, dapibus quis erat. Fusce aliquet placerat ipsum, quis bibendum turpis euismod at. Sed diam elit, ullamcorper sed blandit ac, aliquet ultrices diam. Aenean ultrices, lorem ac venenatis fermentum, mauris nibh consequat nisl, quis tempus quam diam vel orci. Morbi rutrum varius urna sit amet mollis. Nam interdum diam quis ante elementum, vel feugiat neque lacinia. Vestibulum lacinia tincidunt iaculis. Mauris non augue justo. Sed sagittis tincidunt elit, rhoncus iaculis tortor pretium eget. Donec in lectus gravida, dictum dolor vel, aliquet felis.
 </p>
-<p>
-	Things I do is just a blog for sharing a moment of the "what I do" in a day or a week ! All the post are writing on my free-time. This blog feed help me to put in order (like a library) projects, musics, books etc over the years.
-</p>
-<p>Welcome in board :)</p>
 
