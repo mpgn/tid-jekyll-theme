@@ -9,7 +9,7 @@ layout: default
 		</div>
 		<div class="column col-auto">
 		{% for tag in page.tags %}
-		<span class="label" style="background-color:{{ site.data.categories[tag] }}"><a href="/tags#{{ tag }}">{{ tag }}</a></span>
+		<span class="label" style="background-color:{{ site.data.categories[tag] }}"><a href="{{ site.baseurl}}/tags#{{ tag }}">{{ tag }}</a></span>
 		{% endfor %}
 		</div>
 	</div>
