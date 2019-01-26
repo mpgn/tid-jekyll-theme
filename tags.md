@@ -27,7 +27,7 @@ layout: default
     {% for post in site.tags[tag] %}{% if post.title != null %}
       <div>
         <span style="float: left;">
-          <a href="{{ post.url }}">{{ post.title }}</a>{% if post.stared %} <i style="font-size: 12px;" class="fa fa-star"></i> {% endif %}
+          <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>{% if post.stared %} <i style="font-size: 12px;" class="fa fa-star"></i> {% endif %}
         </span>
         <span style="float: right;">
           {{ post.date | date_to_string }}
